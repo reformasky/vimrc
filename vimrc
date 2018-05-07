@@ -27,4 +27,5 @@ inoremap ""     ""
 inoremap '      ''<Left>
 inoremap '<CR>  '<CR>'<Esc>O
 inoremap ''     ''
+set so=999
 
