@@ -1,0 +1,30 @@
+inoremap <C-e> <Esc>A
+inoremap <C-a> <Esc>I
+inoremap <C-b> <Esc>bi
+inoremap <C-w> <Esc>wi
+set number
+set showmatch
+set tabstop=4
+set shiftwidth=4
+set expandtab
+inoremap {      {}<Left>
+inoremap {<CR>  {<CR>}<Esc>O
+inoremap {{     {
+inoremap {}     {}
+set smartindent
+inoremap (      ()<Left>
+inoremap (<CR>  (<CR>)<Esc>O
+inoremap ((     (
+inoremap ()     ()
+set guicursor=i:ver15-iCursor
+inoremap [      []<Left>
+inoremap [<CR>  [<CR>]<Esc>O
+inoremap [[     [
+inoremap []     []
+inoremap "      ""<Left>
+inoremap "<CR>  "<CR>"<Esc>O
+inoremap ""     ""
+inoremap '      ''<Left>
+inoremap '<CR>  '<CR>'<Esc>O
+inoremap ''     ''
+
